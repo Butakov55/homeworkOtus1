@@ -11,7 +11,7 @@ import org.junit.Test;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import page.MainPage;
 
-public class HomeworkOne {
+public class HomeworkOneTest {
     protected EventFiringWebDriver driver;
 
     @Before
