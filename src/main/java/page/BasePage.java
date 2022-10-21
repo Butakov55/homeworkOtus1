@@ -21,7 +21,7 @@ public abstract class BasePage <T> {
     }
 
     public T openSite() {
-        driver.get(HOST + (T)this.pathName);
+        driver.get(HOST + this.pathName);
         return (T)this;
     }
 
